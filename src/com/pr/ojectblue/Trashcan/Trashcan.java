@@ -24,7 +24,7 @@ public class Trashcan extends JavaPlugin implements Listener{
 	
 	
 	public void onEnable(){
-		getLogger().info("Trashcan 0.1 has been enabled!");
+		getLogger().info("The Trashcan 0.1 has been enabled!");
 		getServer().getPluginManager().registerEvents(this, this);
 		ShapedRecipe RECIPE = new ShapedRecipe(new ItemStack(Material.CAULDRON_ITEM,1)).shape("o o", "o o", "ooo").setIngredient('o', Material.COBBLESTONE);
     	
@@ -33,7 +33,7 @@ public class Trashcan extends JavaPlugin implements Listener{
 	}
  
 	public void onDisable(){
-		getLogger().info("Trashcan 0.1 has been disabled.");
+		getLogger().info("The Trashcan 0.1 has been disabled.");
 	}
 
 	
