@@ -1,0 +1,4 @@
+thetrashcan
+===========
+
+Bukkit Trashcan Plugin.
