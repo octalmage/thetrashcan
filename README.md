@@ -11,5 +11,5 @@ The Trashcan 0.3
  
 Changelog
 ===========
-* 0.2 Added Permission support: thetrashcan.use
+* 0.3 Added Permission support: thetrashcan.use
 * 0.2 Added an easy way to make the Cauldron still usable. (Thanks Algent)
