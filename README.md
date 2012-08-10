@@ -1,4 +1,4 @@
-The Trashcan 0.2
+The Trashcan 0.3
 ===========
 
  Trashcan is a simple plugin that turns those useless Cauldrons into something you can actually use...
@@ -11,4 +11,5 @@ The Trashcan 0.2
  
 Changelog
 ===========
+* 0.2 Added Permission support: thetrashcan.use
 * 0.2 Added an easy way to make the Cauldron still usable. (Thanks Algent)

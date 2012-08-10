@@ -21,7 +21,7 @@ public class Trashcan extends JavaPlugin implements Listener{
 	
 	
 	public void onEnable(){
-		getLogger().info("The Trashcan 0.2 has been enabled!");
+		getLogger().info("The Trashcan 0.3 has been enabled!");
 		getServer().getPluginManager().registerEvents(this, this);
 		
 		/*
@@ -38,7 +38,7 @@ public class Trashcan extends JavaPlugin implements Listener{
 	}
  
 	public void onDisable(){
-		getLogger().info("The Trashcan 0.2 has been disabled.");
+		getLogger().info("The Trashcan 0.3 has been disabled.");
 	}
 
 	
@@ -50,7 +50,7 @@ public class Trashcan extends JavaPlugin implements Listener{
         {
         	//Check to see if they clicked a cauldron, and if they did make sure they aren't holding a water bucket or a glass bottle.
         	//Thanks to Algent for coming up with a simple way to make the Cauldron still usable. 
-            if (event.getClickedBlock().getType() == Material.CAULDRON && player.getItemInHand().getType() != Material.WATER_BUCKET && player.getItemInHand().getType() != Material.GLASS_BOTTLE) 
+            if (event.getClickedBlock().getType() == Material.CAULDRON && player.getItemInHand().getType() != Material.WATER_BUCKET && player.getItemInHand().getType() != Material.GLASS_BOTTLE && player.hasPermission("thetrashcan.use")) 
             {
             	//Opens the trashcan gui as an inventory.
             	Inventory inventory = Bukkit.createInventory(player, 36, "Trash Can");              
