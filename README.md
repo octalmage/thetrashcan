@@ -1,4 +1,4 @@
-The Trashcan 0.1
+The Trashcan 0.2
 ===========
 
  Trashcan is a simple plugin that turns those useless Cauldrons into something you can actually use...
@@ -7,3 +7,8 @@ The Trashcan 0.1
  
  Find out more here:
  http://dev.bukkit.org/server-mods/thetrashcan
+ 
+ 
+Changelog
+===========
+* 0.2 Added an easy way to make the Cauldron still usable. (Thanks Algent)
