@@ -46,6 +46,7 @@ public class Trashcan extends JavaPlugin implements Listener {
 			// usable.
 			if (event.getClickedBlock().getType() == Material.CAULDRON
 					&& player.getInventory().getItemInMainHand().getType() != Material.WATER_BUCKET
+					&& player.getInventory().getItemInMainHand().getType() != Material.BUCKET
 					&& player.getInventory().getItemInMainHand().getType() != Material.GLASS_BOTTLE
 					&& player.hasPermission("thetrashcan.use")) {
 				// Opens the trashcan gui as an inventory.
